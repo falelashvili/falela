@@ -1,0 +1,150 @@
+body{
+  background-image: url(../350851-download-free-website-background-1920x1080-for-mobile-hd.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.banner{
+  width: 100%;
+}
+h1{
+  width: 300px;
+  font-size: 45px;
+  color: #009688;
+  text-decoration: underline;
+  text-decoration-color: #009688;
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background:#009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.main{
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.info{
+  width: 60%;
+  margin: 50px 100px 0 50px;
+  font-size: 20px;
+}
+span{
+  color: #009688;
+}
+h2{
+  font-size: 40px;
+}
+.register{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.form1{
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.299);
+  border: 3px solid #0096876a;
+  border-radius: 4px;
+  height: 280px;
+}
+.text{
+  width: 100px;
+  height: 40px;
+  margin: 20px 100px 20px 100px;
+  background-color: #009688;
+  border: 2px solid rgba(0, 0, 0, 0.365);
+  border-radius: 3px;
+  font-size:16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+}
+.email{
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.299);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #009688;
+  margin: 20px 50px 20px 50px ;
+  color: white;
+}
+.password{
+  border-bottom: 2px solid #009688;
+  width: 200px;
+  margin: 20px 50px 10px 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.299);
+  border-right: none;
+}
+.acc{
+  font-size: 12px;
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.sign{
+  text-decoration: none;
+  color: #009688;
+}
+.signup{
+  text-decoration: underline;
+}
+.a1{
+  color: white;
+  text-decoration: none;
+  
+  margin: 15px 5px 5px 15px;
+}
+.searchh{
+  margin-right: 0px;
+  display: inline-block;
+  width: 250px;
+  margin-left: 30px;
+  height: 40px;
+  border: 2px solid #009688;
+  background-color: rgba(0, 0, 0, 0.324);
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+}
+.button{
+  margin-left: 0px;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #009688;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #009688;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}

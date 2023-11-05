@@ -1,0 +1,83 @@
+body{
+  background-image: url(../350851-download-free-website-background-1920x1080-for-mobile-hd.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.banner{
+  width: 100%;
+}
+h1{
+  width: 300px;
+  font-size: 45px;
+  color: #009688;
+  text-decoration: underline;
+  text-decoration-color: #009688;
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background:#009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.info{
+  height: 60vh;
+  display: flex;
+}
+h2{
+  color: white;
+  font-size: 35px;
+  width: 200px;
+  height: 40px;
+}
+.p{
+  width: 50%;
+}
+p{
+  width: 800px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px;
+}
+.photo{
+  width: 50%;
+}
+img{
+  height: 43vh;
+  margin: 40px auto auto 150px;
+}
+p{
+  font: 600 20px;
+  background-color: rgba(0, 0, 0, 0.402);
+  border-bottom: 4px solid #009688;
+}
+span{
+  color: #009688;
+  font-size: 24px;
+}

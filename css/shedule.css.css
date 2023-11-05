@@ -1,0 +1,79 @@
+body{
+  background-image: url(../350851-download-free-website-background-1920x1080-for-mobile-hd.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.banner{
+  width: 100%;
+}
+h1{
+  width: 300px;
+  font-size: 45px;
+  color: #009688;
+  text-decoration: underline;
+  text-decoration-color: #009688;
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background:#009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+table{
+  border: 4px solid #009688;
+  width: 50%;
+  margin-left: 40px;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.349);
+  color: white;
+  margin-top: 70px;
+}
+th, td{
+  border: 3px solid #009688;
+  height: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+p{
+  width: 40%;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 70px auto auto 50px;
+  background-color: rgba(0, 0, 0, 0.347);
+}
+.times{
+  width: 100%;
+  display: flex;
+}
+span{
+  color: #009688;
+  font-size: 24px;
+}
